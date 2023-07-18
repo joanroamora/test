@@ -1,0 +1,22 @@
+Instalacion de Jenkins y verificacion de instalacion de Java v11.
+Instalacion de Java 11
+
+verifique versiones de los paquetes instalados:
+java --version
+jenkins --version
+
+Ahora inicie Jenkins utilizando systemctl:
+systemctl start jenkins
+
+Ya que sustemctl no muestra un resultado de estado al iniciar Jenkins con systemctl, 
+es necesario verificar manualmente el estado del servidor Jenkins asi:
+systemctl status jenkins
+
+
+
+docker build -t nodejs1 .
+
+docker run -d -p 3030:3030 8679eadc23ee 
+
+si ya esta corriendo
+docker exec -ti b3a30479df88 /bin/bash
